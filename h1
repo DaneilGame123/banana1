@@ -41,7 +41,7 @@ TextButton.TextSize = 14.000
 TextButton_2.Parent = beansreal
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
 TextButton_2.BackgroundTransparency = 0.400
-TextButton_2.Position = UDim2.new(0.397022337, 0, 0.135593221, 0)
+TextButton_2.Position = UDim2.new(0.295170933, 0, 0.135593221, 0)
 TextButton_2.Size = UDim2.new(0, 200, 0, 50)
 TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.Text = "Give an AA-12+"
@@ -51,7 +51,7 @@ TextButton_2.TextSize = 14.000
 TextButton_3.Parent = beansreal
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
 TextButton_3.BackgroundTransparency = 0.400
-TextButton_3.Position = UDim2.new(0.645161271, 0, 0.135593221, 0)
+TextButton_3.Position = UDim2.new(0.441648066, 0, 0.135593221, 0)
 TextButton_3.Size = UDim2.new(0, 200, 0, 50)
 TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "Give a Medkit"
@@ -61,7 +61,7 @@ TextButton_3.TextSize = 14.000
 TextButton1.Name = "TextButton1"
 TextButton1.Parent = beansreal
 TextButton1.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
-TextButton1.Position = UDim2.new(0.148883373, 0, 0.747795463, 0)
+TextButton1.Position = UDim2.new(0.148151308, 0, 0.656109214, 0)
 TextButton1.Size = UDim2.new(0, 84, 0, 31)
 TextButton1.Font = Enum.Font.SourceSans
 TextButton1.Text = "Gravity h"
@@ -71,27 +71,27 @@ TextButton1.TextSize = 14.000
 TextBox1.Name = "TextBox1"
 TextBox1.Parent = beansreal
 TextBox1.BackgroundColor3 = Color3.fromRGB(17, 255, 0)
-TextBox1.Position = UDim2.new(0.148883373, 0, 0.820105731, 0)
+TextBox1.Position = UDim2.new(0.148883373, 0, 0.702476144, 0)
 TextBox1.Size = UDim2.new(0, 84, 0, 28)
 TextBox1.Font = Enum.Font.SourceSans
-TextBox1.Text = "33"
+TextBox1.Text = ""
 TextBox1.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox1.TextSize = 14.000
 
 TextBox2.Name = "TextBox2"
 TextBox2.Parent = beansreal
 TextBox2.BackgroundColor3 = Color3.fromRGB(17, 255, 0)
-TextBox2.Position = UDim2.new(0.253101736, 0, 0.820105731, 0)
+TextBox2.Position = UDim2.new(0.209909931, 0, 0.702476144, 0)
 TextBox2.Size = UDim2.new(0, 84, 0, 28)
 TextBox2.Font = Enum.Font.SourceSans
-TextBox2.Text = "33"
+TextBox2.Text = ""
 TextBox2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextBox2.TextSize = 14.000
 
 TextButton2.Name = "TextButton2"
 TextButton2.Parent = beansreal
 TextButton2.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
-TextButton2.Position = UDim2.new(0.253101736, 0, 0.747795463, 0)
+TextButton2.Position = UDim2.new(0.209909916, 0, 0.654884398, 0)
 TextButton2.Size = UDim2.new(0, 84, 0, 31)
 TextButton2.Font = Enum.Font.SourceSans
 TextButton2.Text = "Speed lmao"
@@ -101,7 +101,7 @@ TextButton2.TextSize = 14.000
 TextButton1_2.Name = "TextButton1"
 TextButton1_2.Parent = beansreal
 TextButton1_2.BackgroundColor3 = Color3.fromRGB(33, 255, 241)
-TextButton1_2.Position = UDim2.new(0.83374697, 0, 0.802469194, 0)
+TextButton1_2.Position = UDim2.new(0.552634239, 0, 0.689689279, 0)
 TextButton1_2.Size = UDim2.new(0, 47, 0, 37)
 TextButton1_2.Font = Enum.Font.SourceSans
 TextButton1_2.Text = "Parent to StarterGUI"
@@ -112,7 +112,7 @@ TextButton1_2.TextWrapped = true
 
 -- Scripts:
 
-local function WVGYEA_fake_script() -- TextButton.LocalScript 
+local function EMULGA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	function OnClicked() 
@@ -125,8 +125,8 @@ local function WVGYEA_fake_script() -- TextButton.LocalScript
 	script.Parent.MouseButton1Down:connect(OnClicked)
 	
 end
-coroutine.wrap(WVGYEA_fake_script)()
-local function SJYMF_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(EMULGA_fake_script)()
+local function LMYBLSS_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	function OnClicked() 
@@ -139,8 +139,8 @@ local function SJYMF_fake_script() -- TextButton_2.LocalScript
 	script.Parent.MouseButton1Down:connect(OnClicked)
 	
 end
-coroutine.wrap(SJYMF_fake_script)()
-local function GPOMZF_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(LMYBLSS_fake_script)()
+local function RZROR_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	function OnClicked() 
@@ -153,8 +153,8 @@ local function GPOMZF_fake_script() -- TextButton_3.LocalScript
 	script.Parent.MouseButton1Down:connect(OnClicked)
 	
 end
-coroutine.wrap(GPOMZF_fake_script)()
-local function TOBIE_fake_script() -- beansreal.LocalScript 
+coroutine.wrap(RZROR_fake_script)()
+local function TIIOO_fake_script() -- beansreal.LocalScript 
 	local script = Instance.new('LocalScript', beansreal)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(Input)
@@ -167,8 +167,8 @@ local function TOBIE_fake_script() -- beansreal.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TOBIE_fake_script)()
-local function SSLG_fake_script() -- TextButton1.GuiClick_Script 
+coroutine.wrap(TIIOO_fake_script)()
+local function GYQIDU_fake_script() -- TextButton1.GuiClick_Script 
 	local script = Instance.new('LocalScript', TextButton1)
 
 	function OnClicked() 
@@ -177,8 +177,8 @@ local function SSLG_fake_script() -- TextButton1.GuiClick_Script
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(SSLG_fake_script)()
-local function JUYXUHU_fake_script() -- TextButton2.GuiClick_Script 
+coroutine.wrap(GYQIDU_fake_script)()
+local function VXKCHL_fake_script() -- TextButton2.GuiClick_Script 
 	local script = Instance.new('LocalScript', TextButton2)
 
 	function OnClicked() 
@@ -187,8 +187,8 @@ local function JUYXUHU_fake_script() -- TextButton2.GuiClick_Script
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(JUYXUHU_fake_script)()
-local function YKDQ_fake_script() -- TextButton1_2.GuiClick_Script 
+coroutine.wrap(VXKCHL_fake_script)()
+local function VBTEXY_fake_script() -- TextButton1_2.GuiClick_Script 
 	local script = Instance.new('LocalScript', TextButton1_2)
 
 	function OnClicked() 
@@ -197,4 +197,4 @@ local function YKDQ_fake_script() -- TextButton1_2.GuiClick_Script
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(YKDQ_fake_script)()
+coroutine.wrap(VBTEXY_fake_script)()

@@ -1,0 +1,358 @@
+
+local Beans = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton1 = Instance.new("TextButton")
+local TextBox1 = Instance.new("TextBox")
+local TextBox2 = Instance.new("TextBox")
+local TextButton2 = Instance.new("TextButton")
+local ColorCorrectionDisable = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextBox3 = Instance.new("TextBox")
+local Announce = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local AnnounceText = Instance.new("TextBox")
+local Virusinfect = Instance.new("TextButton")
+
+--Properties:
+
+Beans.Name = "Beans"
+Beans.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Beans.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Beans.ResetOnSpawn = false
+
+Frame.Parent = Beans
+Frame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 10
+Frame.Position = UDim2.new(0.148883373, 0, 0.135593191, 0)
+Frame.Size = UDim2.new(0.757468581, 0, 0.714803576, 0)
+
+TextButton.Parent = Beans
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton.BackgroundTransparency = 0.400
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.148883373, 0, 0.135593221, 0)
+TextButton.Size = UDim2.new(0.14628756, 0, 0.100000009, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Give an Omni-Card"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Beans
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_2.BackgroundTransparency = 0.400
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 2
+TextButton_2.Position = UDim2.new(0.295170903, 0, 0.135593221, 0)
+TextButton_2.Size = UDim2.new(0.145705953, 0, 0.100000009, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Give an AA-12+"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Beans
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_3.BackgroundTransparency = 0.400
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 2
+TextButton_3.Position = UDim2.new(0.440424085, 0, 0.135593221, 0)
+TextButton_3.Size = UDim2.new(0.145999998, 0, 0.100000001, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Give a Medkit"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton1.Name = "TextButton1"
+TextButton1.Parent = Beans
+TextButton1.BackgroundColor3 = Color3.fromRGB(186, 0, 0)
+TextButton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton1.BorderSizePixel = 3
+TextButton1.Position = UDim2.new(0.148883373, 0, 0.667139113, 0)
+TextButton1.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextButton1.Font = Enum.Font.SourceSans
+TextButton1.Text = "Gravity"
+TextButton1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton1.TextSize = 14.000
+
+TextBox1.Name = "TextBox1"
+TextBox1.Parent = Beans
+TextBox1.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+TextBox1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox1.BorderSizePixel = 3
+TextBox1.Position = UDim2.new(0.148883373, 0, 0.767676234, 0)
+TextBox1.Size = UDim2.new(0.100000009, 0, 0.0576719642, 0)
+TextBox1.Font = Enum.Font.SourceSans
+TextBox1.Text = "196.2"
+TextBox1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox1.TextSize = 14.000
+
+TextBox2.Name = "TextBox2"
+TextBox2.Parent = Beans
+TextBox2.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+TextBox2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox2.BorderSizePixel = 3
+TextBox2.Position = UDim2.new(0.25588575, 0, 0.767676234, 0)
+TextBox2.Size = UDim2.new(0.100000009, 0, 0.05767202, 0)
+TextBox2.Font = Enum.Font.SourceSans
+TextBox2.Text = "16"
+TextBox2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox2.TextSize = 14.000
+
+TextButton2.Name = "TextButton2"
+TextButton2.Parent = Beans
+TextButton2.BackgroundColor3 = Color3.fromRGB(186, 0, 0)
+TextButton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.BorderSizePixel = 3
+TextButton2.Position = UDim2.new(0.257224411, 0, 0.665452659, 0)
+TextButton2.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextButton2.Font = Enum.Font.SourceSans
+TextButton2.Text = "Speed"
+TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.TextSize = 14.000
+
+ColorCorrectionDisable.Name = "ColorCorrectionDisable"
+ColorCorrectionDisable.Parent = Beans
+ColorCorrectionDisable.BackgroundColor3 = Color3.fromRGB(33, 255, 241)
+ColorCorrectionDisable.Position = UDim2.new(0.814771771, 0, 0.779705286, 0)
+ColorCorrectionDisable.Size = UDim2.new(0.0907363817, 0, 0.0682539716, 0)
+ColorCorrectionDisable.Font = Enum.Font.SourceSans
+ColorCorrectionDisable.Text = "ColorCorrection disable"
+ColorCorrectionDisable.TextColor3 = Color3.fromRGB(0, 0, 0)
+ColorCorrectionDisable.TextScaled = true
+ColorCorrectionDisable.TextSize = 12.000
+ColorCorrectionDisable.TextWrapped = true
+
+TextButton_4.Parent = Beans
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_4.BackgroundTransparency = 0.400
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 2
+TextButton_4.Position = UDim2.new(0.75988555, 0, 0.135593221, 0)
+TextButton_4.Size = UDim2.new(0.145999998, 0, 0.100000001, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "GIve any item"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextBox3.Name = "TextBox3"
+TextBox3.Parent = Beans
+TextBox3.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+TextBox3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox3.BorderSizePixel = 3
+TextBox3.Position = UDim2.new(0.75988555, 0, 0.235048398, 0)
+TextBox3.Size = UDim2.new(0.145056531, 0, 0.0453262813, 0)
+TextBox3.Font = Enum.Font.SourceSans
+TextBox3.Text = "MINIGUN+"
+TextBox3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox3.TextSize = 14.000
+
+Announce.Name = "Announce"
+Announce.Parent = Beans
+Announce.BackgroundColor3 = Color3.fromRGB(198, 66, 0)
+Announce.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Announce.BorderSizePixel = 3
+Announce.Position = UDim2.new(0.75988555, 0, 0.383188486, 0)
+Announce.Size = UDim2.new(0.146293581, 0, 0.0647266358, 0)
+Announce.Font = Enum.Font.SourceSans
+Announce.Text = "Announce"
+Announce.TextColor3 = Color3.fromRGB(0, 0, 0)
+Announce.TextSize = 17.000
+
+TextButton_5.Parent = Beans
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_5.BackgroundTransparency = 0.400
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 2
+TextButton_5.Position = UDim2.new(0.586341083, 0, 0.135593221, 0)
+TextButton_5.Size = UDim2.new(0.145999998, 0, 0.100000001, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Give an Authorize tool"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+AnnounceText.Name = "AnnounceText"
+AnnounceText.Parent = Beans
+AnnounceText.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+AnnounceText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AnnounceText.BorderSizePixel = 3
+AnnounceText.Position = UDim2.new(0.75988555, 0, 0.446688592, 0)
+AnnounceText.Size = UDim2.new(0.145056531, 0, 0.0453262813, 0)
+AnnounceText.Font = Enum.Font.SourceSans
+AnnounceText.Text = ""
+AnnounceText.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnnounceText.TextSize = 14.000
+
+Virusinfect.Name = "Virus infect"
+Virusinfect.Parent = Beans
+Virusinfect.BackgroundColor3 = Color3.fromRGB(19, 186, 10)
+Virusinfect.Position = UDim2.new(0.696967244, 0, 0.797341943, 0)
+Virusinfect.Size = UDim2.new(0.117510132, 0, 0.0506172925, 0)
+Virusinfect.Font = Enum.Font.SourceSans
+Virusinfect.Text = "Virus infection"
+Virusinfect.TextColor3 = Color3.fromRGB(0, 0, 0)
+Virusinfect.TextScaled = true
+Virusinfect.TextSize = 12.000
+Virusinfect.TextWrapped = true
+
+-- Scripts:
+
+local function PVTTT_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	function OnClicked() 
+		local A_1 = "Omni-Card"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(PVTTT_fake_script)()
+local function SHKGU_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	function OnClicked() 
+		local A_1 = "AA-12+"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(SHKGU_fake_script)()
+local function KLMXI_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	function OnClicked() 
+		local A_1 = "Medkit"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(KLMXI_fake_script)()
+local function PXIVXRZ_fake_script() -- Beans.LocalScript 
+	local script = Instance.new('LocalScript', Beans)
+
+	game:GetService("UserInputService").InputBegan:Connect(function(Input)
+		if Input.KeyCode == Enum.KeyCode["RightShift"] then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			elseif script.Parent.Enabled == false then
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(PXIVXRZ_fake_script)()
+local function OTQRG_fake_script() -- TextButton1.GuiClick_Script 
+	local script = Instance.new('LocalScript', TextButton1)
+
+	function OnClicked() 
+		game.Workspace.Gravity = script.Parent.Parent.TextBox1.Text
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(OTQRG_fake_script)()
+local function YLOEQHZ_fake_script() -- TextButton2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton2)
+
+	function OnClicked() 
+		local Player = game.Players.LocalPlayer
+		local Character = Player.Character
+		Character.Humanoid.WalkSpeed = script.Parent.Parent.TextBox2.Text
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(YLOEQHZ_fake_script)()
+local function RSSMCW_fake_script() -- ColorCorrectionDisable.GuiClick_Script 
+	local script = Instance.new('LocalScript', ColorCorrectionDisable)
+
+	function OnClicked() 
+		game:GetService("Lighting").ColorCorrection:Destroy()
+		wait()
+		game:GetService("Lighting").ColorCorrection:Destroy()
+	end
+		script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(RSSMCW_fake_script)()
+local function NPIDJJ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	function OnClicked() 
+		local A_1 = script.Parent.Parent.TextBox3.Text
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(NPIDJJ_fake_script)()
+local function GTFXRJ_fake_script() -- Announce.GuiClick_Script 
+	local script = Instance.new('LocalScript', Announce)
+
+	function OnClicked() 
+		local A_1 = script.Parent.Parent.AnnounceText.Text
+		local Event = game:GetService("ReplicatedStorage").Remotes.Announce
+		Event:FireServer(A_1)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(GTFXRJ_fake_script)()
+local function JLBOHG_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	function OnClicked() 
+		local A_1 = "Authorize"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(JLBOHG_fake_script)()
+local function QHNFT_fake_script() -- Virusinfect.GuiClick_Script 
+	local script = Instance.new('LocalScript', Virusinfect)
+
+	
+	function OnClicked()
+		script.Parent.Visible = false
+		local teleport = Instance.new("Part")
+		teleport.Parent = workspace
+		teleport.Position = game.Players.LocalPlayer.Character.Head.Position
+		teleport.Name = "teleportE"
+		teleport.Anchored = true
+		teleport.Size = Vector3.new(1, 1, 1)
+		teleport.Transparency = 0.3
+		teleport.BrickColor = BrickColor.new(255, 0, 0)
+		teleport.CanCollide = false
+		wait(1)
+		game.Players.LocalPlayer.Character:MoveTo(game:GetService("Workspace").StaticSCPFolder["SCP-409"].Touch.Position)
+		wait(3)
+		game.Players.LocalPlayer.Character:MoveTo(teleport.Position)
+		wait(5)
+		teleport:Destroy()
+		script.Parent.Visible = true
+	end
+		script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(QHNFT_fake_script)()

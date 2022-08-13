@@ -1,0 +1,339 @@
+
+local Beans = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton1 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextBox1 = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local TextBox2 = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Destroy = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextBox3 = Instance.new("TextBox")
+local UICorner_11 = Instance.new("UICorner")
+local Announce = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local AnnounceText = Instance.new("TextBox")
+local UICorner_14 = Instance.new("UICorner")
+
+--Properties:
+
+Beans.Name = "Beans"
+Beans.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Beans.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Beans.ResetOnSpawn = false
+
+Frame.Parent = Beans
+Frame.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.148883373, 0, 0.135593191, 0)
+Frame.Size = UDim2.new(0.757468581, 0, 0.714803576, 0)
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = Frame
+
+TextButton.Parent = Beans
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton.BackgroundTransparency = 0.400
+TextButton.Position = UDim2.new(0.148883373, 0, 0.135593221, 0)
+TextButton.Size = UDim2.new(0.14628756, 0, 0.100000009, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Give an Omni-Card"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_2.Parent = TextButton
+
+TextButton_2.Parent = Beans
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_2.BackgroundTransparency = 0.400
+TextButton_2.Position = UDim2.new(0.295170903, 0, 0.135593221, 0)
+TextButton_2.Size = UDim2.new(0.145705953, 0, 0.100000009, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Give an AA-12+"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_3.Parent = TextButton_2
+
+TextButton_3.Parent = Beans
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_3.BackgroundTransparency = 0.400
+TextButton_3.Position = UDim2.new(0.440424085, 0, 0.135593221, 0)
+TextButton_3.Size = UDim2.new(0.145999998, 0, 0.100000001, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Give a Medkit"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_4.Parent = TextButton_3
+
+TextButton1.Name = "TextButton1"
+TextButton1.Parent = Beans
+TextButton1.BackgroundColor3 = Color3.fromRGB(186, 0, 0)
+TextButton1.BorderSizePixel = 0
+TextButton1.Position = UDim2.new(0.148883373, 0, 0.667139113, 0)
+TextButton1.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextButton1.Font = Enum.Font.SourceSans
+TextButton1.Text = "Gravity"
+TextButton1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton1.TextSize = 14.000
+
+UICorner_5.Parent = TextButton1
+
+TextBox1.Name = "TextBox1"
+TextBox1.Parent = Beans
+TextBox1.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+TextBox1.BorderSizePixel = 0
+TextBox1.Position = UDim2.new(0.148883373, 0, 0.767676234, 0)
+TextBox1.Size = UDim2.new(0.100000009, 0, 0.0576719642, 0)
+TextBox1.Font = Enum.Font.SourceSans
+TextBox1.Text = "196.2"
+TextBox1.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox1.TextSize = 14.000
+
+UICorner_6.Parent = TextBox1
+
+TextBox2.Name = "TextBox2"
+TextBox2.Parent = Beans
+TextBox2.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+TextBox2.BorderSizePixel = 0
+TextBox2.Position = UDim2.new(0.25588575, 0, 0.767676234, 0)
+TextBox2.Size = UDim2.new(0.100000009, 0, 0.05767202, 0)
+TextBox2.Font = Enum.Font.SourceSans
+TextBox2.Text = "16"
+TextBox2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox2.TextSize = 14.000
+
+UICorner_7.Parent = TextBox2
+
+TextButton2.Name = "TextButton2"
+TextButton2.Parent = Beans
+TextButton2.BackgroundColor3 = Color3.fromRGB(186, 0, 0)
+TextButton2.BorderSizePixel = 0
+TextButton2.Position = UDim2.new(0.257224411, 0, 0.665452659, 0)
+TextButton2.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+TextButton2.Font = Enum.Font.SourceSans
+TextButton2.Text = "Speed"
+TextButton2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton2.TextSize = 14.000
+
+UICorner_8.Parent = TextButton2
+
+Destroy.Name = "\"Destroy()\""
+Destroy.Parent = Beans
+Destroy.BackgroundColor3 = Color3.fromRGB(33, 255, 241)
+Destroy.Position = UDim2.new(0.865483761, 0, 0.825560689, 0)
+Destroy.Size = UDim2.new(0.0400244892, 0, 0.0223986078, 0)
+Destroy.Font = Enum.Font.SourceSans
+Destroy.Text = "Destroy"
+Destroy.TextColor3 = Color3.fromRGB(0, 0, 0)
+Destroy.TextScaled = true
+Destroy.TextSize = 14.000
+Destroy.TextWrapped = true
+
+UICorner_9.Parent = Destroy
+
+TextButton_4.Parent = Beans
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_4.BackgroundTransparency = 0.400
+TextButton_4.Position = UDim2.new(0.75988555, 0, 0.135593221, 0)
+TextButton_4.Size = UDim2.new(0.145999998, 0, 0.100000001, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "GIve any item"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+UICorner_10.Parent = TextButton_4
+
+TextBox3.Name = "TextBox3"
+TextBox3.Parent = Beans
+TextBox3.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+TextBox3.Position = UDim2.new(0.75988555, 0, 0.235048398, 0)
+TextBox3.Size = UDim2.new(0.145056531, 0, 0.0453262813, 0)
+TextBox3.Font = Enum.Font.SourceSans
+TextBox3.Text = "MINIGUN+"
+TextBox3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox3.TextSize = 14.000
+
+UICorner_11.Parent = TextBox3
+
+Announce.Name = "Announce"
+Announce.Parent = Beans
+Announce.BackgroundColor3 = Color3.fromRGB(198, 66, 0)
+Announce.BorderSizePixel = 0
+Announce.Position = UDim2.new(0.75988555, 0, 0.383188486, 0)
+Announce.Size = UDim2.new(0.146293581, 0, 0.0647266358, 0)
+Announce.Font = Enum.Font.SourceSans
+Announce.Text = "Announce"
+Announce.TextColor3 = Color3.fromRGB(0, 0, 0)
+Announce.TextSize = 17.000
+
+UICorner_12.Parent = Announce
+
+TextButton_5.Parent = Beans
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 245, 93)
+TextButton_5.BackgroundTransparency = 0.400
+TextButton_5.Position = UDim2.new(0.586341083, 0, 0.135593221, 0)
+TextButton_5.Size = UDim2.new(0.145999998, 0, 0.100000001, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Give an Authorize tool"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_13.Parent = TextButton_5
+
+AnnounceText.Name = "AnnounceText"
+AnnounceText.Parent = Beans
+AnnounceText.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+AnnounceText.Position = UDim2.new(0.75988555, 0, 0.446688592, 0)
+AnnounceText.Size = UDim2.new(0.145056531, 0, 0.0453262813, 0)
+AnnounceText.Font = Enum.Font.SourceSans
+AnnounceText.Text = ""
+AnnounceText.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnnounceText.TextSize = 14.000
+
+UICorner_14.Parent = AnnounceText
+
+-- Scripts:
+
+local function LFFVLI_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	function OnClicked() 
+		local A_1 = "Omni-Card"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(LFFVLI_fake_script)()
+local function RNXXFJ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	function OnClicked() 
+		local A_1 = "AA-12+"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(RNXXFJ_fake_script)()
+local function ZDENR_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	function OnClicked() 
+		local A_1 = "Medkit"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(ZDENR_fake_script)()
+local function FJCBQ_fake_script() -- Beans.LocalScript 
+	local script = Instance.new('LocalScript', Beans)
+
+	game:GetService("UserInputService").InputBegan:Connect(function(Input)
+		if Input.KeyCode == Enum.KeyCode["RightShift"] then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			elseif script.Parent.Enabled == false then
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(FJCBQ_fake_script)()
+local function DKYQ_fake_script() -- TextButton1.GuiClick_Script 
+	local script = Instance.new('LocalScript', TextButton1)
+
+	function OnClicked() 
+		game.Workspace.Gravity = script.Parent.Parent.TextBox1.Text
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(DKYQ_fake_script)()
+local function QSVRI_fake_script() -- TextButton2.GuiClick_Script 
+	local script = Instance.new('LocalScript', TextButton2)
+
+	function OnClicked() 
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.TextBox2.Text
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(QSVRI_fake_script)()
+local function HJPZOK_fake_script() -- Destroy.GuiClick_Script 
+	local script = Instance.new('LocalScript', Destroy)
+
+	function OnClicked() 
+		script.Parent.Parent:Destroy() 
+	end
+		script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(HJPZOK_fake_script)()
+local function OQKUD_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	function OnClicked() 
+		local A_1 = script.Parent.Parent.TextBox3.Text
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(OQKUD_fake_script)()
+local function DSWBK_fake_script() -- Announce.GuiClick_Script 
+	local script = Instance.new('LocalScript', Announce)
+
+	function OnClicked() 
+		local A_1 = script.Parent.Parent.AnnounceText.Text
+		local Event = game:GetService("ReplicatedStorage").Remotes.Announce
+		Event:FireServer(A_1)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(DSWBK_fake_script)()
+local function ECNML_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	function OnClicked() 
+		local A_1 = "Authorize"
+		local A_2 = game:GetService("Workspace").Objects.VendingMachines.VendingMachine
+		local Event = game:GetService("ReplicatedStorage").Remotes.GetDrink
+		Event:FireServer(A_1, A_2)
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+	
+end
+coroutine.wrap(ECNML_fake_script)()

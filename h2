@@ -1,0 +1,93 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local fling = Instance.new("ScreenGui")
+local Announce = Instance.new("TextButton")
+local AnnounceText = Instance.new("TextBox")
+
+--Properties:
+
+fling.Name = "fling"
+fling.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+fling.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Announce.Name = "Announce"
+Announce.Parent = fling
+Announce.BackgroundColor3 = Color3.fromRGB(104, 0, 1)
+Announce.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Announce.BorderSizePixel = 3
+Announce.Position = UDim2.new(0.75988555, 0, 0.383188486, 0)
+Announce.Size = UDim2.new(0.146293581, 0, 0.0647266358, 0)
+Announce.Font = Enum.Font.SourceSans
+Announce.Text = "Kick Player"
+Announce.TextColor3 = Color3.fromRGB(255, 0, 0)
+Announce.TextSize = 17.000
+
+AnnounceText.Name = "AnnounceText"
+AnnounceText.Parent = fling
+AnnounceText.BackgroundColor3 = Color3.fromRGB(107, 186, 27)
+AnnounceText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AnnounceText.BorderSizePixel = 3
+AnnounceText.Position = UDim2.new(0.75988555, 0, 0.446688592, 0)
+AnnounceText.Size = UDim2.new(0.145056531, 0, 0.0453262813, 0)
+AnnounceText.Font = Enum.Font.SourceSans
+AnnounceText.Text = ""
+AnnounceText.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnnounceText.TextSize = 14.000
+
+-- Scripts:
+
+local function CARUEM_fake_script() -- Announce.GuiClick_Script 
+	local script = Instance.new('LocalScript', Announce)
+
+	function OnClicked() 
+		local A_1 = script.Parent.Parent.AnnounceText.Text
+		-- Settings
+		local Settings = {
+			Target = A_1 -- Target Name (Not display name)
+		}
+	
+		-- Objects
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+	
+		local LocalPlayer = Players.LocalPlayer
+		local Target = Players:FindFirstChild(Settings.Target)
+	
+		local BodyAngularVelocity = Instance.new("BodyAngularVelocity")
+		BodyAngularVelocity.AngularVelocity = Vector3.new(10^6, 10^6, 10^6)
+		BodyAngularVelocity.MaxTorque = Vector3.new(10^6, 10^6, 10^6)
+		BodyAngularVelocity.P = 10^6
+	
+		-- Start
+		if not Target then return end
+		BodyAngularVelocity.Parent = LocalPlayer.Character.HumanoidRootPart
+	
+		while Target.Character.HumanoidRootPart and LocalPlayer.Character.HumanoidRootPart do
+			RunService.RenderStepped:Wait()
+			LocalPlayer.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame * LocalPlayer.Character.HumanoidRootPart.CFrame.Rotation
+			LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new()
+		end
+	
+		BodyAngularVelocity.Parent = nil
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(CARUEM_fake_script)()
+local function MDEXE_fake_script() -- fling.LocalScript 
+	local script = Instance.new('LocalScript', fling)
+
+	game:GetService("UserInputService").InputBegan:Connect(function(Input)
+		if Input.KeyCode == Enum.KeyCode["Question"] then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			elseif script.Parent.Enabled == false then
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(MDEXE_fake_script)()

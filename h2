@@ -81,7 +81,7 @@ local function MDEXE_fake_script() -- fling.LocalScript
 	local script = Instance.new('LocalScript', fling)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(Input)
-		if Input.KeyCode == Enum.KeyCode["Question"] then
+		if Input.KeyCode == Enum.KeyCode["LessThan"] then
 			if script.Parent.Enabled == true then
 				script.Parent.Enabled = false
 			elseif script.Parent.Enabled == false then
